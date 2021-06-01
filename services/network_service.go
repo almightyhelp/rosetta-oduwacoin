@@ -17,8 +17,8 @@ package services
 import (
 	"context"
 
-	"github.com/coinbase/rosetta-oduwacoin/oduwacoin"
-	"github.com/coinbase/rosetta-oduwacoin/configuration"
+	"github.com/almightyhelp/rosetta-oduwacoin/oduwacoin"
+	"github.com/almightyhelp/rosetta-oduwacoin/configuration"
 
 	"github.com/coinbase/rosetta-sdk-go/server"
 	"github.com/coinbase/rosetta-sdk-go/types"

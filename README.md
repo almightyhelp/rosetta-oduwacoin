@@ -9,9 +9,9 @@
 <p align="center">
   <a href="https://circleci.com/gh/coinbase/rosetta-oduwacoin/tree/master"><img src="https://circleci.com/gh/coinbase/rosetta-oduwacoin/tree/master.svg?style=shield" /></a>
   <a href="https://coveralls.io/github/coinbase/rosetta-oduwacoin"><img src="https://coveralls.io/repos/github/coinbase/rosetta-oduwacoin/badge.svg" /></a>
-  <a href="https://goreportcard.com/report/github.com/coinbase/rosetta-oduwacoin"><img src="https://goreportcard.com/badge/github.com/coinbase/rosetta-oduwacoin" /></a>
-  <a href="https://github.com/coinbase/rosetta-oduwacoin/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/coinbase/rosetta-oduwacoin.svg" /></a>
-  <a href="https://pkg.go.dev/github.com/coinbase/rosetta-oduwacoin?tab=overview"><img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield" /></a>
+  <a href="https://goreportcard.com/report/github.com/almightyhelp/rosetta-oduwacoin"><img src="https://goreportcard.com/badge/github.com/almightyhelp/rosetta-oduwacoin" /></a>
+  <a href="https://github.com/almightyhelp/rosetta-oduwacoin/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/coinbase/rosetta-oduwacoin.svg" /></a>
+  <a href="https://pkg.go.dev/github.com/almightyhelp/rosetta-oduwacoin?tab=overview"><img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield" /></a>
 </p>
 
 <p align="center"><b>

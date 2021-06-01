@@ -1,4 +1,4 @@
-module github.com/coinbase/rosetta-oduwacoin
+module github.com/almightyhelp/rosetta-oduwacoin
 
 go 1.13
 

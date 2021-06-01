@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coinbase/rosetta-oduwacoin/configuration"
-	mocks "github.com/coinbase/rosetta-oduwacoin/mocks/services"
+	"github.com/almightyhelp/rosetta-oduwacoin/configuration"
+	mocks "github.com/almightyhelp/rosetta-oduwacoin/mocks/services"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/stretchr/testify/assert"

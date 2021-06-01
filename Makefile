@@ -20,7 +20,7 @@ deps:
 	go get ./...
 
 build:
-	docker build -t rosetta-oduwacoin:latest https://github.com/coinbase/rosetta-oduwacoin.git
+	docker build -t rosetta-oduwacoin:latest https://github.com/almightyhelp/rosetta-oduwacoin.git
 
 build-local:
 	docker build -t rosetta-oduwacoin:latest .

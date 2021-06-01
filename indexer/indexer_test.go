@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coinbase/rosetta-oduwacoin/oduwacoin"
-	"github.com/coinbase/rosetta-oduwacoin/configuration"
-	mocks "github.com/coinbase/rosetta-oduwacoin/mocks/indexer"
+	"github.com/almightyhelp/rosetta-oduwacoin/oduwacoin"
+	"github.com/almightyhelp/rosetta-oduwacoin/configuration"
+	mocks "github.com/almightyhelp/rosetta-oduwacoin/mocks/indexer"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/coinbase/rosetta-sdk-go/utils"

@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coinbase/rosetta-oduwacoin/oduwacoin"
-	"github.com/coinbase/rosetta-oduwacoin/configuration"
-	"github.com/coinbase/rosetta-oduwacoin/services"
-	"github.com/coinbase/rosetta-oduwacoin/utils"
+	"github.com/almightyhelp/rosetta-oduwacoin/oduwacoin"
+	"github.com/almightyhelp/rosetta-oduwacoin/configuration"
+	"github.com/almightyhelp/rosetta-oduwacoin/services"
+	"github.com/almightyhelp/rosetta-oduwacoin/utils"
 
 	"github.com/coinbase/rosetta-sdk-go/asserter"
 	"github.com/coinbase/rosetta-sdk-go/storage/database"

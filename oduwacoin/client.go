@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"time"
 
-	oduwacoinUtils "github.com/coinbase/rosetta-oduwacoin/utils"
+	oduwacoinUtils "github.com/almightyhelp/rosetta-oduwacoin/utils"
 
 	"github.com/btcsuite/btcutil"
 	"github.com/coinbase/rosetta-sdk-go/types"

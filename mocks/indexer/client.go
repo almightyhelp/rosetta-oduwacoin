@@ -5,7 +5,7 @@ package indexer
 import (
 	context "context"
 
-	oduwacoin "github.com/coinbase/rosetta-oduwacoin/oduwacoin"
+	oduwacoin "github.com/almightyhelp/rosetta-oduwacoin/oduwacoin"
 
 	mock "github.com/stretchr/testify/mock"
 

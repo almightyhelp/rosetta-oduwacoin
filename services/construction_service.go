@@ -24,8 +24,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/coinbase/rosetta-oduwacoin/oduwacoin"
-	"github.com/coinbase/rosetta-oduwacoin/configuration"
+	"github.com/almightyhelp/rosetta-oduwacoin/oduwacoin"
+	"github.com/almightyhelp/rosetta-oduwacoin/configuration"
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/txscript"

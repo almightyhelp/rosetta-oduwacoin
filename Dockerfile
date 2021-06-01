@@ -26,12 +26,13 @@ apt-get update && apt-get install -y make gcc g++ autoconf autotools-dev bsdmain
   libcurl4-openssl-dev libdb++-dev libevent-dev libssl-dev libtool pkg-config python python-pip libzmq3-dev wget
 
 # VERSION: Oduwacoin Core 0.20.1
-RUN git clone https://github.com/ODUWAX/oduwacoin \
-  && cd oduwacoin
+RUN git clone https://github.com/almightyhelp/oduwacoin \
+  && cd oduwacoin \
+  && chmod +x autogen.sh share/genbuild.sh
 
 RUN cd oduwacoin \
   && ./autogen.sh \
-  && ./configure --disable-tests --without-miniupnpc --without-gui --with-incompatible-bdb --disable-hardening --disable-zmq --disable-bench --disable-wallet \
+  && ./configure --disable-tests --without-miniupnpc --without-gui --with-incompatible-bdb --disable-hardening --disable-zmq --disable-bench \
   && make
 
 RUN mv oduwacoin/src/oduwacoind /app/oduwacoind \
@@ -72,7 +73,7 @@ RUN cd src \
 FROM ubuntu:18.04
 
 RUN apt-get update && \
-  apt-get install -y --no-install-recommends libevent-dev libboost-system-dev libboost-filesystem-dev libboost-test-dev libboost-thread-dev && \
+  apt-get install -y --no-install-recommends libevent-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libdb5.3++-dev libboost-test-dev libboost-thread-dev && \
   apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN mkdir -p /app \
